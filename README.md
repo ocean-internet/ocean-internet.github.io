@@ -1,7 +1,3 @@
-# Andy Weir – Technical Consultant
-
-## "I Help Solve Business Problems with Software"
-
 ***
 
 With over 20 years of experience in software engineering, I help businesses modernise legacy systems, streamline their processes, optimise delivery, and build scalable, high-quality systems. As a Technical Consultant at Headforwards, I collaborate closely with clients to solve complex technical challenges, providing strategic insights and hands-on expertise to drive successful software outcomes.
@@ -42,7 +38,7 @@ My work is grounded in deep technical expertise across the entire software stack
 
 ***
 
-<a href="https://linkedin.com/in/andyrlweir" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>\
-<a href="https://github.com/andyweir" target="_blank"><i class="fab fa-github"></i> GitHub</a>\
-<a href="https://twitter.com/andyrlweir" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>\
-<a href="https://headforwards.com" target="_blank"><i class="fas fa-building"></i> Headforwards</a>\
+<a href="https://linkedin.com/in/andyrlweir" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>\
+<a href="https://github.com/andyweir" target="_blank"><i class="fa-brands fa-square-github"></i> GitHub</a>\
+<a href="https://twitter.com/andyrlweir" target="_blank"><<i class="fa-brands fa-square-twitter"></i> Twitter</a>\
+<a href="https://headforwards.com" target="_blank"><i class="fa-solid fa-briefcase"></i> Headforwards</a>
