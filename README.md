@@ -1,4 +1,5 @@
 # Andy Weir – Technical Consultant
+
 ## I Help Solve Business Problems with Software
 
 ---
@@ -26,6 +27,8 @@ I focus on enhancing efficiency by improving feedback loops, automating testing,
 ### Collaboration with Diverse Teams
 
 I work closely with technical teams, stakeholders, and senior leadership, ensuring alignment across the business and delivering technical solutions that directly address the goals of the organisation.
+
+---
 
 As a member of the Technical Solutions team, I play a pivotal role in helping Headforwards and its clients achieve operational excellence through software, bringing both depth and strategic foresight to every project I undertake.
 
