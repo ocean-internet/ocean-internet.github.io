@@ -1,7 +1,3 @@
-# Andy Weir – Technical Consultant
-
-## I Help Solve Business Problems with Software
-
 ---
 
 With over 20 years of experience in software engineering, I help businesses modernise legacy systems, streamline their processes, optimise delivery, and build scalable, high-quality systems. As a Technical Consultant at Headforwards, I collaborate closely with clients to solve complex technical challenges, providing strategic insights and hands-on expertise to drive successful software outcomes.
