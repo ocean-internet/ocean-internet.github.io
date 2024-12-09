@@ -4,5 +4,5 @@ logo: andy-weir.jpg
 remote_theme: pages-themes/minimal@v0.2.0
 show_downloads: false
 plugins:
-    - jekyll-remote-theme
+- jekyll-remote-theme
 
