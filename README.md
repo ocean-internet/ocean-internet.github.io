@@ -19,8 +19,6 @@ As a member of the Technical Solutions team at Headforwards, I play a pivotal ro
 
 ## How I Work
 
-### Modernising Legacy Systems
-
 ### Driving Digital Transformation
 
 Driving digital transformation is central to my work. I’ve led efforts to evolve aging monolithic applications into scalable, manageable microservices. By using patterns like the strangler fig, I help businesses embrace new technologies without disrupting operations. I work with cross-functional teams to refactor and migrate legacy code, reducing technical debt and making systems more maintainable and adaptable. This approach ensures a balance between immediate business needs and long-term technical sustainability, resulting in enhanced performance and operational efficiency.
