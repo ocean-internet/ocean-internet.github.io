@@ -3,11 +3,23 @@
 
 @import "{{ site.theme }}";
 
+$base-font: "Lora", serif;
+$heading-font: "Oswald", sans-serif;
+
 html {
-  font-family: "Lora", serif;
+  font-family: $base-font;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
 }
 
 a {
@@ -18,25 +30,17 @@ a {
 }
 
 h1 {
+  margin-bottom: 10px;
+
   a {
     color: inherit;
+
     &:hover,
     &:focus {
       color: inherit;
+      font-weight: 400;
     }
   }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 header {
@@ -49,6 +53,7 @@ header {
   }
 
   img {
+    border-radius: 8px;
     display: block;
     margin: 0 auto;
   }
@@ -90,7 +95,6 @@ header {
 
     img {
       width: 100%;
-      height: auto;
       border-radius: 8px;
     }
 
