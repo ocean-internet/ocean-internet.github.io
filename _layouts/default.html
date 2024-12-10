@@ -20,11 +20,6 @@
       </header>
       <section>
         {{ content }}
-      <div class="article-container">
-        {% for post in site.articles %}
-          </div>
-        {% endfor %}
-      </div>
       </section>
       <footer>
         <p>
@@ -48,8 +43,8 @@ async function fetchOGData(url) {
 
 async function populateArticles() {
   const urls = [
-    {% for post in site.articles limit: 3 %}
-    '{{ post.url }}',
+    {% for article in site.articles limit: 3 %}
+    '{{ article }}',
     {% endfor %}
   ];
 
