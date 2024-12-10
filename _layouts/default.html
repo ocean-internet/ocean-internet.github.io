@@ -48,7 +48,7 @@ async function populateArticles() {
 
   for (let i = 0; i < urls.length; i++) {
   const preview = await fetchOGData(urls[i]);
-  const articleItem = document.createElement('<div>')
+  const articleItem = document.createElement('div')
   articleItem.className =  'article-item'
   articleItem.innerHTML = `
     <div class="article-item">
