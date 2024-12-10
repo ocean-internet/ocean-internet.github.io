@@ -10,9 +10,49 @@ html {
   font-style: normal;
 }
 
+a { &:hover, &:focus {
+        font-weight: 400;
+    }
+}
+
+h1 {
+    a {
+        color: inherit;
+        &:hover, &:focus {
+            color:inherit;
+        }
+    }
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+header {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    p:not(.view) {
+        text-align: center;
+    }
+}
+
+blockquote {
+    margin-bottom: 20px;
+}
+
+.sz-root {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    a {
+        display: block;
+        font-size: 1rem;
+        line-height: 2;
+    }
 }
