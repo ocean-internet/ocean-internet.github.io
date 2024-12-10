@@ -43,7 +43,7 @@ h3 {
   font-size: clamp(1rem, calc(0.8rem + 1vw), 2rem);
 }
 h4 {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 a {
@@ -116,6 +116,7 @@ header {
     border-radius: 8px;
 
     img {
+      display: block;
       width: 100%;
       height: auto;
       border-radius: 8px;
@@ -128,6 +129,7 @@ header {
 
     p {
       margin: 0;
+      line-height: 1.2;
     }
   }
 }
