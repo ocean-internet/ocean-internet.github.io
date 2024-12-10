@@ -36,6 +36,8 @@ I ensure all my work is outcome-driven. By engaging with business stakeholders t
 ### Technical Depth
 My work is grounded in deep technical expertise across the entire software stack. From designing and implementing scalable microservices architectures to optimising CI/CD pipelines, I leverage my extensive experience to build systems that are functional, scalable, and maintainable. I bring a strong understanding of both software design principles and modern development practices, ensuring solutions meet the evolving needs of the business.
 
+<script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/mkavt2yy0t/0x0x3fb393x"></script>
+
 ***
 
 <a href="https://linkedin.com/in/andyrlweir" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>\
