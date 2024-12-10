@@ -51,7 +51,7 @@ async function populateArticles() {
   const articleItem = document.createElement('div')
   articleItem.className =  'article-item'
 
-  let summary = preview.description.substring(0, 200)
+  let summary = preview.description.substring(0, 100)
   if(summary < preview.description) summary += '…'
   articleItem.innerHTML = `
     <div class="article-item">
