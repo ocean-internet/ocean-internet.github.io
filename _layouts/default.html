@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <script src="https://kit.fontawesome.com/a8fb943b35.js" crossorigin="anonymous"></script>
+
     {% include head-custom.html %}
   </head>
   <body>
@@ -54,13 +57,13 @@ async function populateArticles() {
   let summary = preview.description.substring(0, 100)
   if(summary < preview.description) summary += '…'
   articleItem.innerHTML = `
-    <div class="article-item">
+    <article class="article-item">
       <a href="${urls[i]}" target="_blank">
         <img src="${preview.image}" alt="${preview.title}" />
-        <h4>${preview.title}</h3>
+        <h3>${preview.title}</h3>
         <p>${summary}</p>
       </a>
-    </div>
+    </article>
   `;
   document.getElementsByClassName('article-container')[0].appendChild(articleItem)
   }

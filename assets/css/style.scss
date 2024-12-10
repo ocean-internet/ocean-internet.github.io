@@ -3,8 +3,11 @@
 
 @import "{{ site.theme }}";
 
-$base-font: "Lora", serif;
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald&display=swap");
+
 $heading-font: "Oswald", sans-serif;
+$base-font: "Lora", serif;
 
 html {
   font-family: $base-font;
@@ -109,7 +112,7 @@ header {
   margin: 0 auto;
   max-width: 1200px;
 
-  .article-item {
+  article {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
@@ -122,7 +125,8 @@ header {
       border-radius: 8px;
     }
 
-    h4 {
+    h3 {
+      font-size: 1.1rem;
       margin: 10px 0;
       line-height: 1.1;
     }
