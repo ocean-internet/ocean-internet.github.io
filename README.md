@@ -40,8 +40,8 @@ I’m the owner and skipper of _Bad Habits_, a Hydro 28 yacht raced out of Flush
 <div class="article-container"></div>
 
 <div class="social-links">
-<a href="https://linkedin.com/in/andyrlweir" target="_blank"><img src="/assets/icons/linkedin.svg"> LinkedIn</a>
-<a href="https://github.com/ocean-internet" target="_blank"><img src="/assets/icons/github.svg"> GitHub</a>
-<a href="https://twitter.com/OceanInternetNQ" target="_blank"><img src="/assets/icons/twitter.svg"> Twitter</a>
-<a href="https://headforwards.com" target="_blank"><img src="/assets/icons/briefcase.svg"> Headforwards</a>
+<a href="https://linkedin.com/in/andyrlweir" target="_blank"><img src="/assets/icons/linkedin.svg" alt="LinkedIn"> LinkedIn</a>
+<a href="https://github.com/ocean-internet" target="_blank"><img src="/assets/icons/github.svg" alt="GitHub"> GitHub</a>
+<a href="https://twitter.com/OceanInternetNQ" target="_blank"><img src="/assets/icons/twitter.svg" alt="Twitter"> Twitter</a>
+<a href="https://headforwards.com" target="_blank"><img src="/assets/icons/briefcase.svg" alt="Work"> Headforwards</a>
 </div>
