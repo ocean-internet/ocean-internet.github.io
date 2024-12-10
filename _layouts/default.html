@@ -20,12 +20,12 @@
       </header>
       <section>
         {{ content }}
-      </section>
       <div class="article-container">
-        {% for post in site.posts %}
-          <div class="article-item" id="article-{{ forloop.index }}"></div>
+        {% for post in site.articles %}
+          </div>
         {% endfor %}
       </div>
+      </section>
       <footer>
         <p>
           <small
@@ -48,21 +48,25 @@ async function fetchOGData(url) {
 
 async function populateArticles() {
   const urls = [
-    {% for post in site.posts limit: 3 %}
+    {% for post in site.articles limit: 3 %}
     '{{ post.url }}',
     {% endfor %}
   ];
 
   for (let i = 0; i < urls.length; i++) {
   const preview = await fetchOGData(urls[i]);
-  const articleItem = document.getElementById(`article-${i + 1}`);
+  const articleItem = document.createElement('<div>')
+  articleItem.className =  'article-item'
   articleItem.innerHTML = `
-    <a href="${urls[i]}" target="_blank">
-      <img src="${preview.image}" alt="${preview.title}" />
-      <h3>${preview.title}</h3>
-      <p>${preview.description}</p>
-    </a>
+    <div class="article-item">
+      <a href="${urls[i]}" target="_blank">
+        <img src="${preview.image}" alt="${preview.title}" />
+        <h3>${preview.title}</h3>
+        <p>${preview.description}</p>
+      </a>
+    </div>
   `;
+                document.getElementsByClassName('article-container')..appendChild(articleItem)
   }
 }
 
