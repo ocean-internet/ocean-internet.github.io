@@ -43,9 +43,7 @@ async function fetchOGData(url) {
 
 async function populateArticles() {
   const urls = [
-    {% for article in site.articles limit: 3 %}
-    '{{ article }}',
-    {% endfor %}
+    {% for article in site.articles limit: 3 %}'{{ article }}',{% endfor %}
   ];
 
   for (let i = 0; i < urls.length; i++) {
