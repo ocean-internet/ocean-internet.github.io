@@ -19,10 +19,7 @@ As a member of the Technical Solutions team at Headforwards, I play a pivotal ro
 ### Modernising Legacy Systems
 
 ### Driving Digital Transformation
-
-Modernising legacy systems is at the core of my work. I’ve successfully led efforts to transform aging monolithic applications into more manageable, scalable microservices. Using patterns like the strangler fig, I ensure businesses can adopt new technologies without disrupting ongoing operations. I collaborate with cross-functional teams to refactor and migrate legacy code, reducing technical debt and making systems more maintainable and responsive to change.
-
-Modernising legacy systems is at the core of my work. I’ve successfully led efforts to transform aging monolithic applications into more manageable, scalable microservices. Using patterns like the strangler fig, I ensure businesses can adopt new technologies without disrupting ongoing operations. I collaborate with cross-functional teams to refactor and migrate legacy code, reducing technical debt and making systems more maintainable and responsive to change. This approach balances short-term business needs with long-term technical sustainability, leading to operational improvements and better performance.
+Driving digital transformation is central to my work. I’ve led efforts to evolve aging monolithic applications into scalable, manageable microservices. By using patterns like the strangler fig, I help businesses embrace new technologies without disrupting operations. I work with cross-functional teams to refactor and migrate legacy code, reducing technical debt and making systems more maintainable and adaptable. This approach ensures a balance between immediate business needs and long-term technical sustainability, resulting in enhanced performance and operational efficiency.
 
 ### Outcome-Driven Approach
 
