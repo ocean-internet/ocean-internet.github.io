@@ -50,12 +50,15 @@ async function populateArticles() {
   const preview = await fetchOGData(urls[i]);
   const articleItem = document.createElement('div')
   articleItem.className =  'article-item'
+
+  let summary = preview.description.substring(0, 200)
+  if(summary < preview.description) summary += '…'
   articleItem.innerHTML = `
     <div class="article-item">
       <a href="${urls[i]}" target="_blank">
         <img src="${preview.image}" alt="${preview.title}" />
         <h3>${preview.title}</h3>
-        <p>${preview.description}</p>
+        <p>${summary}</p>
       </a>
     </div>
   `;

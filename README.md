@@ -37,6 +37,8 @@ My work is grounded in deep technical expertise across the entire software stack
 
 I’m the owner and skipper of _Bad Habits_, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic aspects of yacht racing, balancing teamwork, navigation, and technical sailing skills. Competing regularly sharpens my decision-making and leadership abilities, both on and off the water.
 
+## Thought Leadership
+
 <div class="article-container"></div>
 
 <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/mkavt2yy0t/0x0x267cb9x"></script>

@@ -76,14 +76,18 @@ header {
 
 .article-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
   justify-content: space-between;
 }
 
 .article-item {
-  flex: 1 1 calc((100% / 3) - 5px); /* 3 items in a row on larger screens */
+  flex: 0 0 calc((100% / 3) - 10px); /* 3 items in a row on larger screens */
   margin-bottom: 20px; /* 20px margin at the bottom */
+
+  h3 {
+    margin: 10px 0 20px;
+  }
 }
 
 .article-item img {
