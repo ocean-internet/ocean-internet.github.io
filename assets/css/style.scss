@@ -9,14 +9,11 @@
 $heading-font: "Oswald", sans-serif;
 $base-font: "Lora", sans-serif;
 
-html {
+body {
+  font-family: $base-font;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-body {
-  font-family: $base-font;
   font-size: 16px;
 }
 
