@@ -10,58 +10,90 @@ html {
   font-style: normal;
 }
 
-a { &:hover, &:focus {
-        font-weight: 400;
-    }
+a {
+  &:hover,
+  &:focus {
+    font-weight: 400;
+  }
 }
 
 h1 {
-    a {
-        color: inherit;
-        &:hover, &:focus {
-            color:inherit;
-        }
+  a {
+    color: inherit;
+    &:hover,
+    &:focus {
+      color: inherit;
     }
+  }
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
-    h1 {
-        margin-bottom: 10px;
-    }
-    
-    p {
-        margin-bottom: 20px;
-    }
+  h1 {
+    margin-bottom: 10px;
+  }
 
-    img {
-        display: block;
-        margin: 0 auto;
-    }
+  p {
+    margin-bottom: 20px;
+  }
 
-    blockquote {
-        border: none;
-        margin: 20px 0;
-        padding: 0;
-        font-size: 1.2em;
-        text-align: center;
-    }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  blockquote {
+    border: none;
+    margin: 20px 0;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
 }
 
 .sz-root {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .social-links {
-    a {
-        display: block;
-        font-size: 1rem;
-        line-height: 2;
-    }
+  a {
+    display: block;
+    font-size: 1rem;
+    line-height: 2;
+  }
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.article-item {
+  flex: 1 1 calc((100% / 3) - 5px); /* 3 items in a row on larger screens */
+  margin-bottom: 20px; /* 20px margin at the bottom */
+}
+
+.article-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 750px) {
+  .article-item {
+    flex: 1 1 100%; /* Stack vertically on smaller screens */
+  }
 }

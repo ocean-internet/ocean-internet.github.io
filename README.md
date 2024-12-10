@@ -6,11 +6,14 @@ I’m Andy, a Technical Consultant at Headforwards, working within the Technical
 
 In my current role at Headforwards, I help bridge the gap between complex technical problems and business needs. By working directly with clients to understand their challenges, I architect and implement modern software solutions that streamline operations and enhance scalability.
 
-* **Modernising Legacy Systems** I’ve led numerous projects to refactor outdated monolithic systems into agile, scalable microservices architectures. This often involves incremental migrations, allowing businesses to move away from fragile, difficult-to-maintain systems while mitigating risks.
+- **Modernising Legacy Systems**\
+  I’ve led numerous projects to refactor outdated monolithic systems into agile, scalable microservices architectures. This often involves incremental migrations, allowing businesses to move away from fragile, difficult-to-maintain systems while mitigating risks.
 
-* **Optimising Software Delivery** My focus is on enhancing delivery efficiency by improving feedback loops, automating testing, and speeding up release cycles. I also champion DevOps practices and CI/CD pipelines to ensure a faster, more reliable delivery process.
+- **Optimising Software Delivery**\
+  My focus is on enhancing delivery efficiency by improving feedback loops, automating testing, and speeding up release cycles. I also champion DevOps practices and CI/CD pipelines to ensure a faster, more reliable delivery process.
 
-* **Collaboration with Diverse Teams** Collaboration is key. I work closely with technical teams, stakeholders, and senior leadership to ensure alignment and deliver technical solutions that directly support organisational goals.
+- **Collaboration with Diverse Teams**\
+  Collaboration is key. I work closely with technical teams, stakeholders, and senior leadership to ensure alignment and deliver technical solutions that directly support organisational goals.
 
 As a member of the Technical Solutions team at Headforwards, I play a pivotal role in helping clients achieve operational excellence through software, applying both technical depth and strategic foresight to every project I undertake.
 
@@ -19,6 +22,7 @@ As a member of the Technical Solutions team at Headforwards, I play a pivotal ro
 ### Modernising Legacy Systems
 
 ### Driving Digital Transformation
+
 Driving digital transformation is central to my work. I’ve led efforts to evolve aging monolithic applications into scalable, manageable microservices. By using patterns like the strangler fig, I help businesses embrace new technologies without disrupting operations. I work with cross-functional teams to refactor and migrate legacy code, reducing technical debt and making systems more maintainable and adaptable. This approach ensures a balance between immediate business needs and long-term technical sustainability, resulting in enhanced performance and operational efficiency.
 
 ### Outcome-Driven Approach
@@ -31,7 +35,7 @@ My work is grounded in deep technical expertise across the entire software stack
 
 ## Personal Interests - Yacht Racing
 
-I’m the owner and skipper of *Bad Habits*, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic aspects of yacht racing, balancing teamwork, navigation, and technical sailing skills. Competing regularly sharpens my decision-making and leadership abilities, both on and off the water.
+I’m the owner and skipper of _Bad Habits_, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic aspects of yacht racing, balancing teamwork, navigation, and technical sailing skills. Competing regularly sharpens my decision-making and leadership abilities, both on and off the water.
 
 <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/mkavt2yy0t/0x0x267cb9x"></script>
 

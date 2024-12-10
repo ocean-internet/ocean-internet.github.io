@@ -1,0 +1,11 @@
+{
+  "name": "ocean-internet.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.6.3",
+    "prettier": "^3.4.2"
+  }
+}

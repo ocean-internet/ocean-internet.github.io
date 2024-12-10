@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-GB">
   <head>
     <meta charset="UTF-8">
@@ -11,18 +11,62 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-         <p>{{ site.tagline }}</p>
-        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        <h1>
+          <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
+        </h1>
+        <p>{{ site.tagline }}</p>
+        <img src="{{site.logo | relative_url}}" alt="Logo">
         <blockquote>{{ site.description }}</blockquote>
       </header>
       <section>
         {{ content }}
       </section>
+      <div class="article-container">
+        {% for post in site.posts %}
+          <div class="article-item" id="article-{{ forloop.index }}"></div>
+        {% endfor %}
+      </div>
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>
+          <small
+            >Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small
+          >
+        </p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+async function fetchOGData(url) {
+const response = await fetch(`https://api.microlink.io?url=${url}`);
+const data = await response.json();
+return {
+title: data.data.title,
+image: data.data.image.url,
+description: data.data.description,
+};
+}
+
+async function populateArticles() {
+const urls = [
+{% for post in site.posts limit: 3 %}
+'{{ post.url }}',
+{% endfor %}
+];
+
+for (let i = 0; i < urls.length; i++) {
+const preview = await fetchOGData(urls[i]);
+const articleItem = document.getElementById(`article-${i + 1}`);
+articleItem.innerHTML = `
+<a href="${urls[i]}" target="_blank">
+  <img src="${preview.image}" alt="${preview.title}" />
+  <h3>${preview.title}</h3>
+  <p>${preview.description}</p>
+</a>
+`;
+}
+}
+
+populateArticles();
+    </script>
   </body>
 </html>
