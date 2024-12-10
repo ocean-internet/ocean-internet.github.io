@@ -1,5 +1,3 @@
-> With over 20 years of experience in software engineering, I help businesses modernise legacy systems, streamline their processes, optimise delivery, and build scalable, high-quality systems. As a Technical Consultant at Headforwards, I collaborate closely with clients to solve complex technical challenges, providing strategic insights and hands-on expertise to drive successful software outcomes.
-
 ## About Me
 
 I’m Andy, a Technical Consultant at Headforwards, working within the Technical Solutions team to provide tailored solutions that meet both technical and business goals. My expertise spans modernising legacy systems, optimising software delivery processes, and leading the design and architecture of scalable, high-quality systems. Over the years, I've worked across diverse industries including healthtech, retail, travel, and oil and gas, helping businesses transform their software landscapes.
