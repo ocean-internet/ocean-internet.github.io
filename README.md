@@ -6,16 +6,11 @@ I’m Andy, a Technical Consultant at Headforwards, working within the Technical
 
 In my current role at Headforwards, I help bridge the gap between complex technical problems and business needs. By working directly with clients to understand their challenges, I architect and implement modern software solutions that streamline operations and enhance scalability.
 
-### Modernising Legacy Systems
-I’ve led numerous projects to refactor outdated monolithic systems into agile, scalable microservices architectures. This often involves incremental migrations, allowing businesses to move away from fragile, difficult-to-maintain systems while mitigating risks.
+* **Modernising Legacy Systems** I’ve led numerous projects to refactor outdated monolithic systems into agile, scalable microservices architectures. This often involves incremental migrations, allowing businesses to move away from fragile, difficult-to-maintain systems while mitigating risks.
 
-### Optimising Software Delivery
-My focus is on enhancing delivery efficiency by improving feedback loops, automating testing, and speeding up release cycles. I also champion DevOps practices and CI/CD pipelines to ensure a faster, more reliable delivery process.
+* **Optimising Software Delivery** My focus is on enhancing delivery efficiency by improving feedback loops, automating testing, and speeding up release cycles. I also champion DevOps practices and CI/CD pipelines to ensure a faster, more reliable delivery process.
 
-### Collaboration with Diverse Teams
-Collaboration is key. I work closely with technical teams, stakeholders, and senior leadership to ensure alignment and deliver technical solutions that directly support organisational goals.
-
----
+* **Collaboration with Diverse Teams** Collaboration is key. I work closely with technical teams, stakeholders, and senior leadership to ensure alignment and deliver technical solutions that directly support organisational goals.
 
 As a member of the Technical Solutions team at Headforwards, I play a pivotal role in helping clients achieve operational excellence through software, applying both technical depth and strategic foresight to every project I undertake.
 

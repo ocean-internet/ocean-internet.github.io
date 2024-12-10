@@ -40,10 +40,12 @@ header {
         text-align: center;
         margin: 10px 0;
     }
-}
 
-blockquote {
-    margin-bottom: 20px;
+    blockquote {
+        border: none;
+        margin: 20px 0;
+        font-size: 1.2rem;;
+    }
 }
 
 .sz-root {
