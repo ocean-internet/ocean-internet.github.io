@@ -67,6 +67,10 @@ h1 {
   }
 }
 
+li p strong:first-child {
+  font-family: $heading-font;
+}
+
 hr {
   margin: 20px 0;
 }
