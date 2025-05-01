@@ -3,6 +3,8 @@ tagline: I Help Solve Business Problems with Software
 description: >
   With over 20 years of experience in software engineering, I help businesses modernise legacy systems, streamline their processes, optimise delivery, and build scalable, high-quality systems. As a Technical Consultant at Headforwards, I collaborate closely with clients to solve complex technical challenges, providing strategic insights and hands-on expertise to drive successful software outcomes.
 logo: /assets/andy-weir.jpg
+lang: en-GB
+locale: en_GB
 remote_theme: pages-themes/minimal@v0.2.0
 show_downloads: false
 plugins:
