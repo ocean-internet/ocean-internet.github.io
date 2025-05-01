@@ -13,6 +13,17 @@ Promise.resolve()
   .then(populateArticleContainer)
   .then(showArticles);
 
+document.querySelectorAll(".placeholder-image").forEach((img) => {
+  if (img.dataset.src) {
+    const newImg = new Image();
+    newImg.onload = () => {
+      img.src = img.dataset.src;
+      img.classList.add("loaded");
+    };
+    newImg.src = img.dataset.src;
+  }
+});
+
 function fetchOGData(url) {
   return fetch(`https://api.microlink.io?url=${url}`)
     .then((response) => response.json())
