@@ -13,17 +13,6 @@ Promise.resolve()
   .then(populateArticleContainer)
   .then(showArticles);
 
-document.querySelectorAll(".placeholder-image").forEach((img) => {
-  if (img.dataset.src) {
-    const newImg = new Image();
-    newImg.onload = () => {
-      img.src = img.dataset.src;
-      img.classList.add("loaded");
-    };
-    newImg.src = img.dataset.src;
-  }
-});
-
 function fetchOGData(url) {
   return fetch(`https://api.microlink.io?url=${url}`)
     .then((response) => response.json())
@@ -43,7 +32,12 @@ function fetchArticleElements() {
 
         articleItem.innerHTML = `
           <a href="${element}" target="_blank">
-            <img src="${preview.image}" alt="Article Image" />
+            <img
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1'%3E%3Crect width='1' height='1' fill='whitesmoke'/%3E%3C/svg%3E"
+              data-src="${preview.image}"
+              class="placeholder-image"
+              alt="Article Image"
+              onload="loadFullImage(this)"/>
             <h3>${preview.title}</h3>
             <p>${preview.description}</p>
           </a>

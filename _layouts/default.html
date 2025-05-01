@@ -10,7 +10,8 @@
         base-uri 'self';
         default-src 'none';
         style-src-elem 'self' https://fonts.googleapis.com;
-        script-src-elem 'self';
+        script-src-elem 'self' 'sha256-bECdVouORk5RTQ9nM+cAXTnqWmyLoHnUL98b8fyAIl0=';
+        script-src 'unsafe-hashes' 'sha256-qp1hNEDz5ysWmtAqFDa6WtDMnsWqtU0ZaKCicDFvWO4=';
         connect-src 'self' https://api.microlink.io;
         img-src 'self' data: https://static.licdn.com https://media.licdn.com https://www.headforwards.com;
         font-src 'self' https://fonts.gstatic.com;
@@ -56,6 +57,7 @@
       data-src="{{ site.logo | append: "?v=" | append: site.github.build_revision | relative_url }}"
       alt="{{ site.title | split: ' - ' | first }}"
       class="placeholder-image"
+      onload="loadFullImage(this)"
     />
     <blockquote>{{ site.description }}</blockquote>
   </header>

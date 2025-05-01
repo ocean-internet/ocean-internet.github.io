@@ -2,3 +2,19 @@
 <link href="/assets/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="/assets/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 <link href="/assets/site.webmanifest" rel="manifest">
+<script>
+  function loadFullImage(img) {
+    if (img.dataset.processed === "true" || !img.dataset.src) {
+      return;
+    }
+
+    const newImg = new Image();
+
+    newImg.onload = function() {
+      img.dataset.processed = "true";
+      img.src = img.dataset.src;
+      img.classList.add("loaded");
+    };
+    newImg.src = img.dataset.src;
+  }
+</script>
