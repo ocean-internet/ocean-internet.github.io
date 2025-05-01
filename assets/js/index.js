@@ -43,7 +43,7 @@ function fetchArticleElements() {
 
         articleItem.innerHTML = `
           <a href="${element}" target="_blank">
-            <img src="${preview.image}" alt="${preview.title}" />
+            <img src="${preview.image}" alt="Article Image" />
             <h3>${preview.title}</h3>
             <p>${preview.description}</p>
           </a>
