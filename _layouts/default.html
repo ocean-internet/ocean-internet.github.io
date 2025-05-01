@@ -34,6 +34,7 @@
   <link
     rel="preload"
     as="image"
+    type="image/webp"
     href="{{ site.logo | append: "?v=" | append: site.github.build_revision | relative_url }}"
   >
   <link
@@ -52,7 +53,7 @@
     <p>{{ site.tagline }}</p>
     <img
       src="data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBACdASoUABQAPzmSvlmvKaYjqAgB4CcJYgBV/QPPQt5JSg3/eIl8NPwDtOUAAP6QSokDmRaLzA1RfEU5w8QWCv4B4s2pvAeVx4IgDglIvhxPED8+tj7D4t2/RxWL6OkwpkaHyraNP28yz480X9aToNH/HW7bntBNsCqs3D/bgMpXBZpQEkjDZGeAAAAA"
-      data-src="{{site.logo | relative_url}}"
+      data-src="{{ site.logo | append: "?v=" | append: site.github.build_revision | relative_url }}"
       alt="{{ site.title | split: ' - ' | first }}"
       class="placeholder-image"
     />
