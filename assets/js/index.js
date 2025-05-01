@@ -37,6 +37,7 @@ function fetchArticleElements() {
               data-src="${preview.image}"
               class="placeholder-image"
               alt="Article Image"
+              loading="lazy"
               onload="loadFullImage(this)"/>
             <h3>${preview.title}</h3>
             <p>${preview.description}</p>
