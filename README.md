@@ -1,39 +1,41 @@
 ## About Me
 
-I’m Andy, a Technical Consultant at Headforwards, working within the Technical Solutions team to provide tailored solutions that meet technical and business goals. My expertise spans modernising legacy systems, optimising software delivery processes, and leading the design and architecture of scalable, high-quality systems. Over the years, I've worked across diverse industries, including healthtech, retail, travel, and oil and gas, helping businesses transform their software landscapes.
+I’m Andy Weir, a Technical Consultant specialising in software architecture, secure delivery, and engineering effectiveness. I help organisations modernise platforms, improve flow, and build systems that scale – without losing sight of outcomes.
+
+I’ve spent 20+ years in software engineering across diverse industries, including healthtech, retail, travel, and oil and gas. I help teams connect technical decisions to real business needs, working directly with the people who build and run the software.
+
+Outside work, you’ll find me racing a small yacht, paddle-boarding the Cornish coast, or reading something nerdy.
 
 ## Experience
 
-In my current role at Headforwards, I help bridge the gap between complex technical problems and business needs. By working directly with clients to understand their challenges, I architect and implement modern software solutions that streamline operations and enhance scalability.
+In my current role, I help clients modernise legacy systems, streamline delivery processes, and build maintainable software that supports their long-term goals.
 
 - **Modernising Legacy Systems**\
-  I’ve led numerous projects to refactor outdated monolithic systems into agile, scalable microservices architectures. This often involves incremental migrations, allowing businesses to move away from fragile, difficult-to-maintain systems while mitigating risks.
+  I’ve led projects to break down fragile monoliths into scalable microservices, using incremental migration patterns that reduce risk and maintain continuity.
 
 - **Optimising Software Delivery**\
-  I focus on enhancing delivery efficiency by improving feedback loops, automating testing, and speeding up release cycles. I also champion DevOps practices and CI/CD pipelines to ensure a faster, more reliable delivery.
+  I help teams improve feedback loops, automate quality gates, and reduce delivery friction — often introducing CI/CD practices that improve flow and reduce failure rates.
 
-- **Collaboration with Diverse Teams**\
-  Collaboration is key. I work closely with technical teams, stakeholders, and senior leadership to ensure alignment and deliver technical solutions that directly support organisational goals.
+- **Aligning Engineering with Outcomes**\
+  I work with developers, stakeholders, and leadership to clarify goals, prioritise technical investments, and build software that delivers lasting value.
 
-As a member of the Technical Solutions team at Headforwards, I play a pivotal role in helping clients achieve operational excellence through software. I apply both technical depth and strategic foresight to every project I undertake.
+## Approach
 
-## How I Work
+### Digital Transformation
 
-### Driving Digital Transformation
+I support teams through high-stakes change — evolving architecture, addressing technical debt, and making systems easier to maintain, adapt, and scale.
 
-Driving digital transformation is central to my work. I’ve led efforts to evolve ageing monolithic applications into scalable, manageable microservices. Using patterns like the strangler fig, I help businesses embrace new technologies without disrupting operations. I work with cross-functional teams to refactor and migrate legacy code, reducing technical debt and making systems more maintainable and adaptable. This approach ensures a balance between immediate business needs and long-term technical sustainability, resulting in enhanced performance and operational efficiency.
+### Outcome-Driven Delivery
 
-### Outcome-Driven Approach
+My work focuses on outcomes, not outputs. I help teams identify what success looks like and adapt architecture, process, and practice to achieve it.
 
-I ensure all my work is outcome-driven. By engaging with business stakeholders to understand key objectives, I measure the success of technical solutions based on the outcomes they achieve. Whether improving system reliability, reducing time-to-market, or enhancing software quality, my solutions align with the organisation’s business goals. I empower teams to deliver results faster and more efficiently through streamlined processes, automation, and best practices.
+### Deep Technical Foundations
 
-### Technical Depth
+From backend APIs to deployment pipelines, I draw on broad technical experience and strong design principles to help teams build software that lasts.
 
-My work is grounded in deep technical expertise across the entire software stack. From designing and implementing scalable microservices architectures to optimising CI/CD pipelines, I leverage my extensive experience to build functional, scalable, and maintainable systems. I bring a strong understanding of both software design principles and modern development practices, ensuring solutions meet the evolving needs of the business.
+## Personal Interests – Yacht Racing
 
-## Personal Interests - Yacht Racing
-
-I’m the owner and skipper of _Bad Habits_, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic aspects of yacht racing, balancing teamwork, navigation, and technical sailing skills. Competing regularly sharpens my decision-making and leadership abilities, both on and off the water.
+I’m the owner and skipper of Bad Habits, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic side of sailing — balancing teamwork, navigation, and technical skills. It sharpens my decision-making both on and off the water.
 
 ## Reflections on Software Engineering
 
