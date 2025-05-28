@@ -52,4 +52,6 @@ sharpens my decision-making both on and off the water.
 
 ## Reflections on Software Engineering
 
-<div class="article-container"></div>
+<div class="article-container">
+  {{ site.data.articles_html }}
+</div>

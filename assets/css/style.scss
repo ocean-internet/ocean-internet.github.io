@@ -127,8 +127,7 @@ header {
 }
 
 .article-container {
-  display: none;
-  //display: grid;
+  display: grid;
   grid-template-columns: 1fr;
   gap: 2em;
   margin: 0 auto;
@@ -190,5 +189,12 @@ header {
   .social-links {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+footer {
+  p {
+    font-size: 0.8rem;
+    text-align: center;
   }
 }
