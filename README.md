@@ -21,21 +21,18 @@ In my current role, I help clients modernise legacy systems, streamline delivery
 
 ## Approach
 
-### Digital Transformation
+- **Digital Transformation**\
+  I support teams through high-stakes change — evolving architecture, addressing technical debt, and making systems easier to maintain, adapt, and scale.
 
-I support teams through high-stakes change — evolving architecture, addressing technical debt, and making systems easier to maintain, adapt, and scale.
+- **Outcome-Driven Delivery**\
+  My work focuses on outcomes, not outputs. I help teams identify what success looks like and adapt architecture, process, and practice to achieve it.
 
-### Outcome-Driven Delivery
-
-My work focuses on outcomes, not outputs. I help teams identify what success looks like and adapt architecture, process, and practice to achieve it.
-
-### Deep Technical Foundations
-
-From backend APIs to deployment pipelines, I draw on broad technical experience and strong design principles to help teams build software that lasts.
+- **Deep Technical Foundations**\
+  From backend APIs to deployment pipelines, I draw on broad technical experience and strong design principles to help teams build software that lasts.
 
 ## Personal Interests – Yacht Racing
 
-I’m the owner and skipper of Bad Habits, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic side of sailing — balancing teamwork, navigation, and technical skills. It sharpens my decision-making both on and off the water.
+I’m the owner and skipper of _Bad Habits_, a Hydro 28 yacht raced out of Flushing Sailing Club. Leading a crew of five, I enjoy the competitive and strategic side of sailing — balancing teamwork, navigation, and technical skills. It sharpens my decision-making both on and off the water.
 
 ## Reflections on Software Engineering
 
