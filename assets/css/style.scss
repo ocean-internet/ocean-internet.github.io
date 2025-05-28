@@ -17,8 +17,9 @@ body {
 }
 
 .placeholder-image {
-  transition: filter 600ms ease;
-  filter: blur(10px);
+  transition: filter 0.3s ease-out;
+  filter: blur(8px);
+  will-change: filter;
   &.loaded {
     filter: blur(0);
   }

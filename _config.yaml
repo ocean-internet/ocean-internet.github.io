@@ -7,5 +7,15 @@ lang: en-GB
 locale: en_GB
 remote_theme: pages-themes/minimal@v0.2.0
 show_downloads: false
+env:
+  COMMIT_REF: local
 plugins:
   - jekyll-remote-theme
+exclude:
+  - package*
+  - Gemfile*
+  - README.md
+  - node_modules
+include:
+  - _headers
+  - netlify.toml

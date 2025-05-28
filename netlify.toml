@@ -1,0 +1,10 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[dev]
+  command = "bundle exec jekyll serve -w"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.4.1"

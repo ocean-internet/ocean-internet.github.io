@@ -4,21 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta
-    http-equiv="Content-Security-Policy"
-    content="
-        base-uri 'self';
-        default-src 'none';
-        style-src-elem 'self' https://fonts.googleapis.com;
-        script-src-elem 'self' 'sha256-bECdVouORk5RTQ9nM+cAXTnqWmyLoHnUL98b8fyAIl0=';
-        script-src 'unsafe-hashes' 'sha256-qp1hNEDz5ysWmtAqFDa6WtDMnsWqtU0ZaKCicDFvWO4=';
-        connect-src 'self' https://api.microlink.io;
-        img-src 'self' data: https://static.licdn.com https://media.licdn.com https://www.headforwards.com;
-        font-src 'self' https://fonts.gstatic.com;
-        manifest-src 'self';
-      "
-  >
-  <link rel="icon" href="/assets/favicon/favicon.ico">
   {% seo %}
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,14 +15,15 @@
   >
   <link
     rel="preload"
+    fetchpriority="high"
     as="image"
     type="image/webp"
-    href="{{ site.logo | append: "?v=" | append: site.github.build_revision | relative_url }}"
+    href="{{ site.logo | append: "?v=" | append:site.env.COMMIT_REF | relative_url }}"
   >
   <link
     rel="stylesheet"
     as="style"
-    href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"
+    href="{{ "/assets/css/style.css?v=" | append:site.env.COMMIT_REF | relative_url }}"
   >
   {% include head-custom.html %}
 </head>
@@ -50,10 +36,11 @@
     <p>{{ site.tagline }}</p>
     <img
       src="data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBACdASoUABQAPzmSvlmvKaYjqAgB4CcJYgBV/QPPQt5JSg3/eIl8NPwDtOUAAP6QSokDmRaLzA1RfEU5w8QWCv4B4s2pvAeVx4IgDglIvhxPED8+tj7D4t2/RxWL6OkwpkaHyraNP28yz480X9aToNH/HW7bntBNsCqs3D/bgMpXBZpQEkjDZGeAAAAA"
-      data-src="{{ site.logo | append: "?v=" | append: site.github.build_revision | relative_url }}"
+      data-src="{{ site.logo | append: " ?v=" | append:site.env.COMMIT_REF | relative_url }}"
       alt="{{ site.title | split: ' - ' | first }}"
       class="placeholder-image"
-      onload="loadFullImage(this)"
+      fetchpriority="high"
+      decoding="async"
     />
     <blockquote>{{ site.description }}</blockquote>
   </header>
@@ -79,7 +66,5 @@
     <p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
   </footer>
 </div>
-<script async src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-<script async src="{{ "/assets/js/index.js?v=" | append: site.github.build_revision | relative_url }}"></script>
 </body>
 </html>

@@ -1,20 +1,47 @@
+<link href="/assets/favicon/favicon.ico" rel="icon">
 <link href="/assets/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
 <link href="/assets/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="/assets/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 <link href="/assets/site.webmanifest" rel="manifest">
 <script>
-  function loadFullImage(img) {
-    if (img.dataset.processed === "true" || !img.dataset.src) {
-      return;
-    }
+  // Create a performance mark
+  performance.mark("image-load-start");
 
-    const newImg = new Image();
+  // Use Intersection Observer for better performance
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".placeholder-image");
 
-    newImg.onload = function() {
-      img.dataset.processed = "true";
-      img.src = img.dataset.src;
-      img.classList.add("loaded");
+    const loadImage = (img) => {
+      const src = img.getAttribute("data-src");
+      if (!src) return;
+
+      const imgLoader = new Image();
+      imgLoader.onload = () => {
+        img.src = src;
+        img.classList.add("loaded");
+        performance.mark("image-load-end");
+        performance.measure("image-load", "image-load-start", "image-load-end");
+      };
+      imgLoader.src = src;
     };
-    newImg.src = img.dataset.src;
-  }
+
+    // Load the logo immediately without waiting for intersection
+    const logo = document.querySelector("header img.placeholder-image");
+    if (logo) loadImage(logo);
+
+    // Use Intersection Observer for other images
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          loadImage(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    // Observe all other images
+    images.forEach(img => {
+      if (img !== logo) observer.observe(img);
+    });
+  });
 </script>

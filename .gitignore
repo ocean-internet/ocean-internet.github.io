@@ -1,3 +1,9 @@
 .idea
-node_modules
+.netlify
+.jekyll-cache
+.sass-cache
+
 _site
+
+node_modules
+
